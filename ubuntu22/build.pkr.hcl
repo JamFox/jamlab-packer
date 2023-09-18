@@ -73,7 +73,7 @@ source "proxmox-iso" "ubuntu22" {
   # PACKER Autoinstall Settings
   http_directory = "http"
   # (Optional) Bind IP Address and Port
-  http_bind_address = "172.21.5.87"
+  http_bind_address = var.pm_http_address
   http_port_min     = 8802
   http_port_max     = 8802
 
