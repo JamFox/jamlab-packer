@@ -81,7 +81,7 @@ variable "cloud_init" {
 
 variable "cloud_init_pool" {
   type        = string
-  default     = "thpl-storage"
+  default     = "local-lvm"
   description = "The storage pool for the cloud-init CDROM. Should default to the storage pool of the boot device, but seems flaky if unspecified."
 }
 
@@ -146,7 +146,7 @@ variable "scsi_controller" {
 
 variable "disk_pool" {
   type        = string
-  default     = "thpl-storage"
+  default     = "local-lvm"
   description = "The storage pool for the default disk."
 }
 
