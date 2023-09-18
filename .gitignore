@@ -1,0 +1,33 @@
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+ 
+# Common credential files
+**/credentials.json
+**/client_secrets.json
+**/client_secret.json
+*creds*
+*.dat
+*password*
+*.httr-oauth*
+
+# Temp files
+*.bak
+*.tmp
+*.temp
+
+# Outputs
+artifacts/*
+artifacts
+
+# Packer files
+*.pkrvars.hcl
+*.pkrvars.json
+**/seed/*.cfg
+*.log
+pve.hcl
